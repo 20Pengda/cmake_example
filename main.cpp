@@ -10,6 +10,7 @@ int main(int argc, const char *argv[]) {
         auto expected_answer = answer::find_the_ultimate_answer();
         if (answer::check_the_answer(answer, expected_answer)) {
             std::cout << "Correct!" << std::endl;
+            std::Cout << "You are right!" << std::endl;
             break;
         }
     }
